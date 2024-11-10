@@ -1,0 +1,8 @@
+---
+# defaults file for nginx-management
+
+nginx_version: "1.18.0-6ubuntu14"   # Default Nginx version
+nginx_user: "www-data"    # The user under which Nginx runs
+nginx_worker_processes: "auto"  # Automatically adjust worker processes based on CPU cores
+nginx_worker_connections: "1024" # Max connections per worker
+nginx_config_template: "nginx.conf.j2"  # Name of the configuration file template
